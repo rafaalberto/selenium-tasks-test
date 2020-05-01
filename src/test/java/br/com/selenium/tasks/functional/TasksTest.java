@@ -72,7 +72,7 @@ public class TasksTest {
             webDriver.findElement(By.id(ADD_TODO_BUTTON)).click();
 
             webDriver.findElement(By.id(TASK_FIELD)).sendKeys("Study Selenium");
-            webDriver.findElement(By.id(DUE_DATE_FIELD)).sendKeys("01/01/2025");
+            webDriver.findElement(By.id(DUE_DATE_FIELD)).sendKeys("01/01/2020");
             webDriver.findElement(By.id(SAVE_BUTTON)).click();
 
             String message = webDriver.findElement(By.id(MESSAGE_LABEL)).getText();
